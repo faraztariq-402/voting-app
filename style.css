@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+span{
+ font-weight:900;
+ margin-left: 1.5rem;
+}
+#loginEmail, #email{
+  margin-bottom: 1rem;
+
+}
+.passwordDiv{
+  margin-top: 0.5rem;
+}
+.labelAlert{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+}
+.swal2-title{
+  color: black;
+}
+.swal2-confirm.swal2-styled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: bold;
+ background-color: black;
+ color: whitesmoke;
+ height: 2.5rem; /* Change color value here */
+}
+.heading,.para1{
+  margin-left: 0.1rem;
+}
+.swal2-cancel.swal2-styled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: black;
+  color: whitesmoke;
+  height: 2.5rem; /* Change color value here */
+}
+.alertInputs{
+  height: 1.5rem;
+  width: 15rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  border-radius: 0.5rem;
+}
+
+p{
+  font-size: 2rem;
+  font-weight: bold;
+}
+label{
+ margin-bottom: 0.1rem;
+
+}
+.completePoll{
+  margin: 0.8rem;
+}
+.myPoll{
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.loginClass{
+ height: 1.5rem;
+  width: 13rem;
+  border-radius: 0.5rem;
+}
+.signUpClass{
+   height: 1.5rem;
+  width: 13rem;
+  border-radius: 0.5rem;
+}
+#votingTopic{
+  height: 2rem;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+.myOptions{
+  font-size: 1rem;
+  font-weight: bold;
+  height: 1.8rem;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+/* body{
+
+  background-color: rgb(180, 180, 79);
+} */
+.loginCard, .signUpCard{
+background-color: whitesmoke;
+padding: 1.5rem;
+border-radius: 0.5rem;
+height: 19rem;
+border: 2px solid black;
+}
+a{
+  text-decoration: none;
+}
+.parent{
+  display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+input[type = 'radio']{
+width: 5rem;
+ height: 2em;
+}
+.underline{
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+
+  height: 2px;
+  width: 15rem;
+  display: block;
+  background-color: rgb(4, 2, 7);
+}
+.heading{
+  font-weight: bold;
+  font-size: 1.8rem;
+ 
+}
+.headerUnderline{
+margin-bottom: 1rem;
+border-radius: 0.3rem;
+  height: 5px;
+  width: 3rem;
+  background-color: black;
+}
+#login,#signUp{
+  transition: 2s ease;
+  height: 2.5rem;
+  width: 15rem;
+  border-radius: 0.4rem;
+  background-color: #3b5998;
+color: whitesmoke;
+font-weight: bold;
+padding: 0.5rem;
+}
+.para1{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+
+}
+button{
+  height: 2rem;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
