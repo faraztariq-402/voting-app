@@ -39,7 +39,7 @@ login.addEventListener("click", function() {
       // ...
       alert("Log In Successfull")
      
-location.href = `./index2.html`
+location.href = `./index.html`
      
     })
     .catch((error) => {
