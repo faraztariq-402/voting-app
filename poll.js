@@ -186,8 +186,8 @@ const addVoteToFirestore = async (pollId, optionIndex, button) => {
 
     if (userVoteDoc.exists()) {
       console.log("User has already voted for this poll.");
-      button.disabled = true;
-   button.style.backgroundColor = 'gray'
+  //     button.disabled = true;
+  //  button.style.backgroundColor = 'gray'
    alert("You Have Already Voted For This Poll")
       return;
     }

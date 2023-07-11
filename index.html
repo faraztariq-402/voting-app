@@ -3,30 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polling App</title>
+    <title>Polling Application</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
     body{
-        background-color: rgb(180, 180, 79)
+        background-color:  #FCE4EC;
     }
 </style>
 <body>
-   
-    <div id="pollingApplication">
-    <h1>Polling Application</h1>
-    <h2>Create A Poll</h2>
- 
-<button id="addPoll">Create a Poll</button>
+    
+    <div class="parent">
+        <div class="signUpCard" id="signUpCard">
+            <span class="heading">User SignUp</span>
+            <div class="headerUnderline"></div>
+    
+            <label>Email Address:</label><br> <input type="text"  placeholder="Enter your email" id="email" class="signUpClass" style="height: 2rem; font-size: 1rem;"><br>
+            <!-- <span class="underline"></span> -->
+            <label>Password:</label><br>   <input type="password"  placeholder="Enter your password" id="password" class="signUpClass" style="height: 2rem; font-size: 1rem;"><br>
+            <div class="passwordDiv">  <input type="checkbox" id="showSignupPasswordCheckbox"> <label>Show Password</label></div>
+            <!-- <span class="underline"></span> -->
+    
+    <button id="signUp">SignUp</button>
+    <span class="para1">Already a member? &nbsp <a href="./index2.html">Signin Now</a></span>
+        </div></div>
+    <script src="./app.js" type="module"></script>
 
-
-
-
-
-    <div id="pollContainer"></div>
-
-</div>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="./poll.js" type="module"></script>
 </body>
 </html>

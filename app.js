@@ -38,7 +38,7 @@ createUserWithEmailAndPassword(auth, email.value, password.value)
     alert("Sign Up Successfull")
     console.log("user created" , user)
     // ...
-    location.href = `./index.html`
+    location.href = `./poll.html`
   })
   .catch((error) => {
     const errorCode = error.code;
